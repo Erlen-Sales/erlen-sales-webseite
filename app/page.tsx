@@ -127,13 +127,11 @@ export default function ErlenVertriebsagenturWebsite() {
 
             <div className="mt-9 flex justify-center">
               <a
-                href="https://calendly.com/dein-link"
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-2xl bg-black px-9 py-4 text-base text-white shadow-2xl hover:bg-slate-900"
-              >
-                Jetzt bewerben
-              </a>
+  href="#karriere"
+  className="mt-8 inline-flex rounded-full bg-[#13213d] px-8 py-4 text-white transition hover:bg-[#1d2f57]"
+>
+  Zur Bewerbung
+</a>
             </div>
 
             <p className="mt-3 text-sm text-white/70">in weniger als 60 Sekunden</p>
@@ -268,13 +266,11 @@ export default function ErlenVertriebsagenturWebsite() {
               Bewirb dich direkt und buche anschließend direkt deinen Termin für ein erstes Gespräch.
             </p>
             <a
-              href="https://calendly.com/dein-link"
-              target="_blank"
-              rel="noreferrer"
-              className="mt-8 inline-flex rounded-full bg-[#13213d] px-7 py-3 text-white hover:bg-[#0f1a31]"
-            >
-              Zur Bewerbung
-            </a>
+  href="#karriere"
+  className="mt-8 inline-flex rounded-full bg-[#13213d] px-8 py-4 text-white transition hover:bg-[#1d2f57]"
+>
+  Zur Bewerbung
+</a>
           </motion.div>
         </div>
       </section>
@@ -305,30 +301,28 @@ export default function ErlenVertriebsagenturWebsite() {
 
             <div className="rounded-[2rem] border border-slate-200 bg-white shadow-sm">
               <div className="p-8">
-                <form className="grid gap-5 md:grid-cols-2">
-                  <input className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Vorname" />
-                  <input className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Nachname" />
-                  <input className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Telefonnummer" />
-                  <input className="h-12 rounded-xl border border-slate-300 px-4" placeholder="E-Mail" />
-                  <input className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Wohnort" />
-                  <input className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Alter" />
-                  <input className="h-12 rounded-xl border border-slate-300 px-4 md:col-span-2" placeholder="Berufserfahrung" />
+                <form action="/api/apply" method="POST" className="grid gap-5 md:grid-cols-2">
+                  <input name="firstName" className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Vorname" />
+                  <input name="lastName" className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Nachname" />
+                  <input name="phone" className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Telefonnummer" />
+                  <input name="email" className="h-12 rounded-xl border border-slate-300 px-4" placeholder="E-Mail" />
+                  <input name="city" className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Wohnort" />
+                  <input name="age" className="h-12 rounded-xl border border-slate-300 px-4" placeholder="Alter" />
+                  <input name="experience" className="md:col-span-2 h-12 rounded-xl border border-slate-300 px-4" placeholder="Berufserfahrung" />
                   <div className="md:col-span-2">
                     <label className="mb-2 block text-sm font-medium text-slate-700">Lebenslauf hochladen</label>
                     <input type="file" className="block w-full rounded-xl border border-slate-300 bg-white p-3 text-sm text-slate-600" />
                   </div>
                   <div className="md:col-span-2">
-                    <textarea className="min-h-[140px] w-full rounded-xl border border-slate-300 p-4" placeholder="Nachricht" />
+                    <textarea name="message" className="min-h-[140px] w-full rounded-xl border border-slate-300 p-4" placeholder="Nachricht" />
                   </div>
                   <div className="md:col-span-2">
-                    <a
-                      href="https://calendly.com/dein-link"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex h-12 items-center rounded-full bg-[#13213d] px-8 text-white hover:bg-[#0f1a31]"
-                    >
-                      Bewerbung abschicken & Termin buchen
-                    </a>
+                    <button
+  type="submit"
+  className="inline-flex h-12 items-center justify-center rounded-xl bg-black px-6 text-white transition hover:bg-neutral-800"
+>
+  Bewerbung abschicken
+</button>
                   </div>
                 </form>
               </div>
@@ -357,13 +351,11 @@ export default function ErlenVertriebsagenturWebsite() {
                 </p>
                 <div className="mt-5">
                   <a
-                    href="https://calendly.com/dein-link"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex rounded-full bg-[#13213d] px-6 py-3 text-white hover:bg-[#0f1a31]"
-                  >
-                    Termin buchen
-                  </a>
+  href="#karriere"
+  className="mt-8 inline-flex rounded-full bg-[#13213d] px-8 py-4 text-white transition hover:bg-[#1d2f57]"
+>
+  Zur Bewerbung
+</a>
                 </div>
               </div>
             </div>
