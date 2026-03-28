@@ -27,8 +27,8 @@ export default function ImpressumPage() {
           <div>
             <p className="font-semibold">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</p>
             <p>Leon Janzen & Eren Ince</p>
-            <p>Deine Straße 1</p>
-            <p>12345 Deine Stadt</p>
+            <p>Aubachstr. 13</p>
+            <p>56410 Montabaur</p>
           </div>
 
           <div>
