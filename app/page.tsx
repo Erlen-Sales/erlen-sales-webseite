@@ -391,9 +391,9 @@ export default function ErlenVertriebsagenturWebsite() {
           <div>
             <h3 className="text-lg font-semibold text-white">Rechtliches</h3>
             <div className="mt-4 space-y-3 text-sm">
-              <a href="#" className="block hover:text-white">Impressum</a>
-              <a href="#" className="block hover:text-white">Datenschutz</a>
-              <a href="#" className="block hover:text-white">AGB</a>
+              <a href="/impressum" className="block hover:text-white">Impressum</a>
+              <a href="/datenschutz" className="block hover:text-white">Datenschutz</a>
+              <a href="/" className="block hover:text-white">AGB</a>
             </div>
           </div>
         </div>
