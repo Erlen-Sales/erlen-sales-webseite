@@ -89,7 +89,7 @@ export default function ErlenVertriebsagenturWebsite() {
           <img
             src="/door-to-door-erlen-banner.png"
             alt="Door-to-Door Vertrieb"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-[80%_center] md:object-center"
           />
           <div className="absolute inset-0 bg-black/50" />
           <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(0,0,0,0.25),rgba(0,0,0,0.52),rgba(0,0,0,0.62))]" />
