@@ -362,14 +362,7 @@ export default function ErlenVertriebsagenturWebsite() {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1400&q=80"
-              alt="Professionelles Vertriebsteam"
-              className="h-full min-h-[560px] w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
-          </div>
+         
         </div>
       </section>
 
