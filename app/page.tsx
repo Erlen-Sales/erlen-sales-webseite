@@ -87,7 +87,7 @@ export default function ErlenVertriebsagenturWebsite() {
       <section className="relative min-h-screen overflow-hidden bg-black text-white">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1800&q=80"
+            src="/door-to-door-erlen-banner.png"
             alt="Door-to-Door Vertrieb"
             className="h-full w-full object-cover"
           />
@@ -289,13 +289,14 @@ export default function ErlenVertriebsagenturWebsite() {
             <div className="rounded-[2rem] bg-[#13213d] text-white shadow-xl">
               <div className="p-8">
                 <h3 className="text-2xl font-semibold">Warum sich eine Bewerbung lohnt</h3>
-                <div className="mt-6 space-y-5 text-slate-200">
-                  <div>• Starke Karrierechancen im Vertrieb</div>
-                  <div>• Leistungsorientiertes Umfeld mit Perspektive</div>
-                  <div>• Quereinsteiger willkommen</div>
-                  <div>• Fokus auf Strom & Gas, Photovoltaik und Glasfaser</div>
-                  <div>• Direkte Terminbuchung nach der Bewerbung</div>
-                </div>
+<div className="mt-6 space-y-5 text-slate-200">
+  <div>• Kein Einkommenslimit – dein Einsatz bestimmt deinen Verdienst</div>
+  <div>• 5.000 € bis 10.000 €+ pro Monat möglich</div>
+  <div>• Quereinsteiger willkommen – keine Vorerfahrung notwendig</div>
+  <div>• Fokus auf Strom & Gas, Photovoltaik und Glasfaser</div>
+  <div>• Schnelle Aufstiegschancen und echte Perspektive</div>
+  <div>• Junges Team, moderne Strukturen und starker Zusammenhalt</div>
+</div>
               </div>
             </div>
 
