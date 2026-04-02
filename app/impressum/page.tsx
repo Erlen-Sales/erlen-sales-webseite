@@ -8,8 +8,8 @@ export default function ImpressumPage() {
           <div>
             <p className="font-semibold">Angaben gemäß § 5 DDG</p>
             <p>Leon Janzen & Eren Ince GbR</p>
-            <p>Deine Straße 1</p>
-            <p>12345 Deine Stadt</p>
+            <p>Aubachstr. 13</p>
+            <p>56410 Montabaur</p>
             <p>Deutschland</p>
           </div>
 
