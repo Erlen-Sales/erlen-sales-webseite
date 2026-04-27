@@ -7,9 +7,9 @@ export default function ImpressumPage() {
         <div className="mt-10 space-y-6 text-lg leading-8 text-slate-700">
           <div>
             <p className="font-semibold">Angaben gemäß § 5 DDG</p>
-            <p>Leon Janzen & Eren Ince GbR</p>
-            <p>Aubachstr. 13</p>
-            <p>56410 Montabaur</p>
+            <p>Erlen Sales GbR</p>
+            <p>Kömbchesweg 26</p>
+            <p>57612 Helmenzen</p>
             <p>Deutschland</p>
           </div>
 
@@ -27,8 +27,8 @@ export default function ImpressumPage() {
           <div>
             <p className="font-semibold">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</p>
             <p>Leon Janzen & Eren Ince</p>
-            <p>Aubachstr. 13</p>
-            <p>56410 Montabaur</p>
+            <p>Kömbchesweg 26</p>
+            <p>57612 Helmenzen</p>
           </div>
 
           <div>
